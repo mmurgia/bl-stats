@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+<link rel="stylesheet" type="text/css" href="http://ajax.aspnetcdn.com/ajax/jquery.dataTables/1.9.4/css/jquery.dataTables.css">
+<title>BL Stats</title>
+</head>
+<body>
+
+  <table id="example" class="display" cellspacing="0" width="100%">
+        <thead>
+            <tr>
+                <th>OWNER</th>
+                <th>AVG RANK</th>
+                <th>TOT REC</th>
+                <th>TOTAL PF</th>
+                <th>TOTAL PA</th>
+                <th>AVG PF/G</th>
+                <th>AVG PA/G</th>
+                <th>TOTAL DIFF</th>
+            </tr>
+        </thead>
+        <tfoot>
+            <tr>
+              <th>OWNER</th>
+              <th>AVG RANK</th>
+              <th>TOT REC</th>
+              <th>TOTAL PF</th>
+              <th>TOTAL PA</th>
+              <th>AVG PF/G</th>
+              <th>AVG PA/G</th>
+              <th>TOTAL DIFF</th>
+            </tr>
+        </tfoot>
+        <tbody>
+            <tr>
+                <td>Matthew Murgia</td>
+                <td>3.33</td>
+                <td>27-12</td>
+                <td>3687.1</td>
+                <td>3241.3</td>
+                <td>94.53</td>
+                <td>83.13</td>
+                <td>34.2</td>
+            </tr>
+            <tr>
+              <td>Brian Lavin</td>
+              <td>2.00</td>
+              <td>27-12</td>
+              <td>4166.9</td>
+              <td>3467.3</td>
+              <td>106.83</td>
+              <td>88.90</td>
+              <td>53.8</td>
+            </tr>
+            <tr>
+              <td>Jarryd Stewart</td>
+              <td>6.33</td>
+              <td>20-19</td>
+              <td>3438.5</td>
+              <td>3374.6</td>
+              <td>88.17</td>
+              <td>88.73</td>
+              <td>4.9</td>
+            </tr>
+            <tr>
+              <td>Nick Scott</td>
+              <td>6.67</td>
+              <td>16-21-2</td>
+              <td>3283.8</td>
+              <td>3459.1</td>
+              <td>84.17</td>
+              <td>88.70</td>
+              <td>-13.5</td>
+            </tr>
+            <tr>
+              <td>Ricky</td>
+              <td>9</td>
+              <td>14-25</td>
+              <td>3346.5</td>
+              <td>3704.3</td>
+              <td>85.80</td>
+              <td>95.00</td>
+              <td>-27.5</td>
+            </tr>
+            <tr>
+              <td>Jevers</td>
+              <td>6.00</td>
+              <td>21-18</td>
+              <td>3460.8</td>
+              <td>3335.4</td>
+              <td>88.73</td>
+              <td>85.53</td>
+              <td>9.6</td>
+            </tr>
+            <tr>
+              <td>Frick</td>
+              <td>9.67</td>
+              <td>15-24</td>
+              <td>3293.5</td>
+              <td>3640.5</td>
+              <td>84.43</td>
+              <td>93.33</td>
+              <td>-26.7</td>
+            </tr>
+            <tr>
+              <td>Jones</td>
+              <td>4.33</td>
+              <td>20-19</td>
+              <td>3547.1</td>
+              <td>3595</td>
+              <td>90.97</td>
+              <td>92.20</td>
+              <td>-3.7</td>
+            </tr>
+            <tr>
+              <td>Kenny</td>
+              <td>9.33</td>
+              <td>11-28</td>
+              <td>3183.4</td>
+              <td>3533.8</td>
+              <td>81.63</td>
+              <td>90.60</td>
+              <td>-27</td>
+            </tr>
+            <tr>
+              <td>Marr</td>
+              <td>3.67</td>
+              <td>22-15-2</td>
+              <td>3620</td>
+              <td>3446.2</td>
+              <td>92.80</td>
+              <td>88.37</td>
+              <td>13.3</td>
+            </tr>
+            <tr>
+              <td>Murph</td>
+              <td>8.67</td>
+              <td>20-18-1</td>
+              <td>3414.9</td>
+              <td>3448.5</td>
+              <td>87.57</td>
+              <td>88.43</td>
+              <td>-2.5</td>
+            </tr>
+            <tr>
+              <td>Owen</td>
+              <td>7.33</td>
+              <td>16-22-1</td>
+              <td>3260.1</td>
+              <td>3411.2</td>
+              <td>83.60</td>
+              <td>87.43</td>
+              <td>-11.7</td>
+            </tr>
+        </tbody>
+    </table>
+    <script type="text/javascript" charset="utf8" src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.8.2.min.js"></script>
+  <script type="text/javascript" charset="utf8" src="http://ajax.aspnetcdn.com/ajax/jquery.dataTables/1.9.4/jquery.dataTables.min.js"></script>
+    <script>
+    $(document).ready(function() {
+      $('#example').DataTable();
+    } );
+    </script>
+</body>
+
+
+</html>
